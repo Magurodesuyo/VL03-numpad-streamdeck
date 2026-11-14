@@ -20,11 +20,10 @@
 ---
 # This file generates the GitHub Actions matrix.
 ---
+# This file generates the GitHub Actions matrix.
+---
 include:
-  - board: seeed_xiao_rp2040
+  - board: seeeduino_xiao_rp2040
     shield: vl03
     snippet: studio-rpc-usb-uart
     artifact-name: vl03_rp2040
-
-  - board: seeed_xiao_rp2040
-    shield: settings_reset
